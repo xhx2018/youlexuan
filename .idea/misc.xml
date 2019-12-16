@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/demo_cas1" />
+    <file type="web" url="file://$PROJECT_DIR$/demo_cas2" />
+    <file type="web" url="file://$PROJECT_DIR$/demo_cas_springsecurity" />
+    <file type="web" url="file://$PROJECT_DIR$/demo_dubbo_service" />
+    <file type="web" url="file://$PROJECT_DIR$/demo_dubbo_web" />
+    <file type="web" url="file://$PROJECT_DIR$/demo_spring_security" />
+    <file type="web" url="file://$PROJECT_DIR$/youlexuan_parent/youlexuan_cart_service" />
+    <file type="web" url="file://$PROJECT_DIR$/youlexuan_parent/youlexuan_cart_web" />
+    <file type="web" url="file://$PROJECT_DIR$/youlexuan_parent/youlexuan_content_service" />
+    <file type="web" url="file://$PROJECT_DIR$/youlexuan_parent/youlexuan_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/youlexuan_parent/youlexuan_order_service" />
+    <file type="web" url="file://$PROJECT_DIR$/youlexuan_parent/youlexuan_page_service" />
+    <file type="web" url="file://$PROJECT_DIR$/youlexuan_parent/youlexuan_page_web" />
+    <file type="web" url="file://$PROJECT_DIR$/youlexuan_parent/youlexuan_pay_service" />
+    <file type="web" url="file://$PROJECT_DIR$/youlexuan_parent/youlexuan_portal_web" />
+    <file type="web" url="file://$PROJECT_DIR$/youlexuan_parent/youlexuan_search_service" />
+    <file type="web" url="file://$PROJECT_DIR$/youlexuan_parent/youlexuan_search_web" />
+    <file type="web" url="file://$PROJECT_DIR$/youlexuan_parent/youlexuan_sellergoods_service" />
+    <file type="web" url="file://$PROJECT_DIR$/youlexuan_parent/youlexuan_shop_web" />
+    <file type="web" url="file://$PROJECT_DIR$/youlexuan_parent/youlexuan_user_service" />
+    <file type="web" url="file://$PROJECT_DIR$/youlexuan_parent/youlexuan_user_web" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/demo_dubbo_service/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_dubbo_web/pom.xml" />
+        <option value="$PROJECT_DIR$/youlexuan_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_angular/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_fastDFS/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_springdate_redis/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_springdate_solr/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_freemark/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_mq/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_springmqproducer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_springmq_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_springmq_producer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_ssms/pom.xml" />
+        <option value="$PROJECT_DIR$/offcn_sms/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_cas1/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_cas2/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_cas_springsecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_spring_security/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

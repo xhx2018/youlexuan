@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+		http://www.springframework.org/schema/context 
+		http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/util 
+		http://www.springframework.org/schema/util/spring-util.xsd">
+	
+	<!-- 数据库连接池 -->
+	<context:property-placeholder location="classpath:properties/db.properties" />
+
+	<!-- 数据库连接池 -->
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+		destroy-method="close">
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="driverClassName" value="${jdbc.driver}" />
+		<property name="maxActive" value="10" />
+		<property name="minIdle" value="5" />
+	</bean>
+
+	<!-- 配置运营商管理后台模块需要处理的表 -->
+	<util:set id="manager_web_tableset">
+		<value>tb_goods</value>
+		<value>tb_goods_desc</value>
+		<value>tb_item</value>
+		<value>tb_item_cat</value>
+		<value>tb_seller</value>
+		<value>tb_specification</value>
+		<value>tb_specification_option</value>
+		<value>tb_type_template</value>
+	</util:set>
+
+
+	<!-- 配置运营商管理后台模块需要处理的表 -->
+	<util:set id="content_tableset">
+		<value>tb_content</value>
+		<value>tb_content_category</value>
+	</util:set>
+
+	<!-- 前端用户模块需要处理的表 -->
+	<util:set id="user_tableset">
+		<value>tb_user</value>
+		<value>tb_address</value>
+	</util:set>
+
+	<util:set id="order_tableset">
+		<value>tb_order</value>
+	</util:set>
+</beans>
